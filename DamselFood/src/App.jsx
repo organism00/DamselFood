@@ -1,13 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+
+import Navbar from './Componets/Navbar'
+import Footer from './Componets/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const name = 'food';
 
   return (
-    <div className="bg-black w-full h-screen"></div>
+    <>
+      <Navbar/>
+      <Footer/>
+    </>
   )
 }
 
