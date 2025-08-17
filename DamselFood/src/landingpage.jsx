@@ -17,17 +17,17 @@ const Landingpage = () => {
             {/* img-div */}
             <div className="h-66 w-66 bg-green-700 rounded-full">
                 <img src="src/img/download.jpeg" alt="" className="h-full w-full rounded-full"/>
-                <p className="text-center">Ijebu Garri</p>
+                <p className="text-center font-bold text-3xl">Ijebu Garri</p>
             </div>
        
             <div className="h-66 w-66 bg-green-700 rounded-full">
                 <img src="src/img/download (1).jpeg" alt="" className="h-full w-full rounded-full"/>
-                <p className="text-center">Yellow Garri</p>
+                <p className="text-center  font-bold text-3xl">Yellow Garri</p>
             </div>
        
             <div className="h-66 w-66 bg-green-700 rounded-full">
                 <img src="src/img/images.jpeg" alt="" className="h-full w-full rounded-full"/>
-                <p className="text-center">White Garri</p>
+                <p className="text-center  font-bold text-3xl">White Garri</p>
             </div>
        
 
