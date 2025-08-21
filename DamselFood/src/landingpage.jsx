@@ -8,7 +8,7 @@ const LandingPage = () => {
   return (
     <div className="bg-amber-100 min-h-screen w-full font-[Poppins]">
       {/* Hero Section */}
-      <div className="relative h-[45vh] md:h-[60vh] lg:h-[70vh] w-full my-6 rounded-2xl overflow-hidden shadow-lg">
+      <div className="relative h-[45vh] md:h-[60vh] lg:h-[70vh] w-full my-6 overflow-hidden shadow-lg">
         <img
           src="src/img/downloaded.jpeg"
           alt="Damsel Food Garri"
@@ -22,10 +22,23 @@ const LandingPage = () => {
             Experience the taste of tradition with our premium garri.
           </p>
           <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-xl shadow transition text-lg">
-            Shop Now
+            Discover more
           </button>
         </div>
       </div>
+    <section className=" gap-60">
+      <div className="flex justify-between px-2">
+          <div className="bg-zinc-500 h- w-92 rounded-sm">
+            <p className="text-yellow-600 font-bold text-3xl ">Enjoy the satisfying granular texture of our garri.</p>
+          </div>
+<div className="bg-amber-100 w-10"></div>
+        
+          <div className="bg-zinc-500 h-54 w-92 rounded-sm">
+            
+          </div>
+        
+      </div>
+      </section>
 
       {/* Category Section */}
       <h2 className="text-center text-2xl md:text-3xl text-blue-600 font-bold mb-8">Our Garri Varieties</h2>
